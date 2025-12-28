@@ -18,7 +18,7 @@ function dataKaryawan() {
             alert(`hallo ${inputId} jabatan anda ${randomPosisi} dan gaji anda ${gajiKecil}`)
         } else {
             const gajiGede = formatRupiah(Math.floor(Math.random() * (20000000 - 10000000)) + 10000000);
-            alert(`hallo ${inputId} jabatan anda ${randomPosisi} dan gaji anda ${gajiGede}`)
+            alert(`hallo ${inputId} jabatan anda ${randomPosisi} dan gaji ${gajiGede}`)
         }
 
     } else {
